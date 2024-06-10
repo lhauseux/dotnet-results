@@ -1,10 +1,9 @@
 using LH.Results.Errors;
-using LH.Results;
 using LH.Results.UnitTests.Fakes.Errors;
 
 namespace LH.Results.UnitTests;
 
-public class UnitTest1
+public class ResultTests
 {
     [Fact]
     public void Create_Successful_Ok()
