@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <RootNamespace>LH.Results</RootNamespace>
+        <Version>1.0.0</Version>
+        <PackageId>lhauseux.results</PackageId>
+        <Author>Loïc Hauseux</Author>
+        <PackageDescription>Results package for .NET</PackageDescription>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/lhauseux/dotnet-results</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="docs/README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
+</Project>
