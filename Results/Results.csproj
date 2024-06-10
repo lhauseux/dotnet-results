@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
 
         <RootNamespace>LH.Results</RootNamespace>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <PackageId>lhauseux.results</PackageId>
         <Author>Loïc Hauseux</Author>
         <PackageDescription>Results package for .NET</PackageDescription>
