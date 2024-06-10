@@ -65,6 +65,11 @@ public class Error : IEquatable<Error>
         return !(a == b);
     }
 
+    public override string ToString()
+    {
+        return $"[Code: {Code}]: {Message}";
+    }
+
     public override int GetHashCode()
     {
         HashCode hashCode = default;
